@@ -1,0 +1,25 @@
+
+.img1{
+	background: url(https://www.tiq.qld.gov.au/iet-strategy/wp-content/uploads/2019/05/IET19_TIQ2019_Website_Header.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+    margin: 0 auto;
+    background-position: cover;
+}
+.cln{
+	margin: 0,auto;
+	text-align: center;
+}
+body{
+	font-family: 'Source Serif Pro', serif;
+      
+}
+.carousel-inner > .carousel-item {
+  height: 400px;
+}
+
+body{
+  background: url(../../Assets/bg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+}

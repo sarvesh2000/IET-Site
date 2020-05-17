@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Individual Delegate Registration</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+      form{
+  width:50%;
+    margin:0 auto;
+    background-color:#e6faff;
+   
+}
+
+    .jumbotron{
+        background:url(photos/a.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        color: white;
+      }
+
+
+    </style>
+</head>
+ <body style="background-color:#e6faff;">
+    
+<!-- For Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+    <a class="navbar-brand" href="Index.html">
+      <img src="Assets/IET_Small.png" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="AboutUs.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Programme
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Agenda.html">Agenda</a>
+            <a class="dropdown-item" href="Tracks.html">Tracks</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Image Gallery</a>
+          </li>
+      </ul>
+      <a class="btn btn-success" href="GetTickets.html" role="button">Get Tickets</a>
+    </div>
+  </nav>  
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4" style="color: black; font-weight:700; font-size:7rem;">Registration</h1>
+                  <p class="lead" style="color: black;font-weight: 500;">register with our community!</p>
+                </div>
+              </div> 
+    <h3>Please fill in the following details</h3>
+    <br>        
+    <!--Forms-->
+    <div class="container">
+    <form>
+            <div class="form-group">
+              <label for="Email"><strong>Email Address</strong></label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="PhoneNumber"><strong>Phone Number</strong></label>
+              <input type="number" class="form-control" id="PhoneNumber" placeholder="Phone Number" required>
+            </div>
+            <div class="form-group">
+                <label for="FirstName"><strong>First Name</strong></label>
+                <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+            </div>
+            <div class="form-group">
+              <label for="LastName"><strong>Last Name</strong></label>
+              <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+              <label for="Nationality"><strong>Nationality</strong></label>
+              <input type="text" class="form-control" id="Nationality" placeholder="Nationality">
+            </div>
+            <button type="submit" class="btn btn-primary btn-large">Submit</button>
+          </form>
+          </div>
+</body>
+</html>
